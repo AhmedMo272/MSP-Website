@@ -1,0 +1,50 @@
+export const paths = [
+  {
+    id: "Tech",
+    title: "TECH TRACK",
+    trackType: "Tech",
+    open: true,
+    rarity: "epic",
+    description: "Build systems, write code, and shape the future with technology.",
+    committees: [
+      "Front-End",
+      "Back-End",
+      "UI/UX",
+      "Flutter",
+      "AI",
+      "Cyber Security",
+      
+    ],
+  },
+
+  {
+    id: "Non-Tech",
+    title: "Non-TECH TRACK",
+    trackType: "Non-Tech",
+    open: true,
+    rarity: "rare",
+description:
+  "Behind every great product is a strong strategy. Communicate, manage, build, and lead the game from the inside.",    
+  committees: ["PR","Entrepreneurship","Project Management","Finance", "Video Editing" ],
+  },
+
+  // 🔒 CLOSED
+  {
+    id: "OC",
+    title:"Organization Committees",
+    trackType: "Non-Tech",
+    open: false,
+    rarity: "locked",
+    description: "Applications closed.",
+    committees: ["HR","BD","EM"],
+  },
+  {
+    id: "Creative Committees",
+    title: "Creative Committees",
+    trackType: "Non-Tech",
+    open: false,
+    rarity: "locked",
+    description: "Applications closed.",
+    committees: ["Graphic Design", " Marketing"],
+  },
+]
